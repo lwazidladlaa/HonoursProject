@@ -35,6 +35,12 @@ Text cleaning
 download the english nltk stopwords from nltk
 import nltk
 
+##ALSO NOTE THAT I HAVE MODIFIED THE DATASET DIRECTORY BY COMBINING THE TEST DATA WITH THE TRAINING DATA INTO ONE GENRE FOLDER
+
+WHEN YOU DOWNLOAD THE DATASET IT WILL HAVE SOMETHING LIKE THIS : C:\Users\lwazi\OneDrive\Documents\COMP700\zu\zu\zu\NF-NEU\Test
+
+SO I MODIFIED IT SO THAT I CAN DO THE SPLIT THE DATA TO TRAIN AND TEST USING  train_test_split
+
 Split the data to train and test data with a test size of 0.2
 Using train_test_split
 
